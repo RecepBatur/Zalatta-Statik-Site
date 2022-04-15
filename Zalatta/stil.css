@@ -1,0 +1,131 @@
+body{
+    background-image: url(bg.jpg);
+}
+img{
+	cursor: pointer;
+}
+#container{
+    background-color: #fff;
+    width: 980px;
+    height: auto;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+#header{
+    width: 980px;
+    height: 150px;
+}
+#logo{
+    float: left;
+    height: 150px;
+    width: 189px;
+}
+.menu{
+    background-image: url(bgMenu.png);
+    background-repeat: no-repeat;
+    width: 790px;
+    height: 40px;
+    float: left;
+    margin-top: 55px;
+}
+#container #header .menu ul{
+list-style-type: none;
+padding: 0px;
+margin: 0px 0px 0px 20px;
+}
+#container #header .menu ul li a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #077936;
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+
+}
+#container #header .menu ul li a:hover{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #000000;
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+#clear-header {
+	clear: both;
+}
+.banner{
+    width: 980px;
+    height: 303px;
+    margin-top: 10px;
+    background-image: url(bgSlide.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 12px;
+}
+#divider{
+    width: 980px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+#content{
+    width: 980px;
+    height: 200px;    
+}
+.left{
+    width: 288px;
+    height: 188px;
+    float: left;
+    padding: 5px;
+    background-color: #F0EAD2;
+    border: 1px solid #CCC;
+    text-align: justify;
+    font-size: 14px;
+}
+.left h1{
+    font-size: 14px;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+.center{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.right{
+    width: 340px;
+    height: 200px;
+    float: left;
+}
+.footer{
+    width: 980px;
+    height: 30px;
+    color: #333;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: bold;
+}
+#container .footer a{
+    color: #333;
+    text-decoration: none;
+}
+#container .footer a:hover{
+    color: #077936;
+}
